@@ -38,6 +38,9 @@ Carrega o arquivo jogadores.csv
 Converte coluna “Percentil” para numérico
 Cria uma tabela pivô com jogadores nas linhas e estatísticas nas colunas
 Seleciona dois jogadores para comparação
-Calcula a similaridade de cosseno entre os percentis (0–100%)
-Monta um gráfico radar para visualizar as estatísticas lado a lado
-Mostra também uma tabela com os percentis usados
+Calcula a similaridade dos atletas usando (Mean Absolute Difference).
+Monta um gráfico de barras para visualizar as estatísticas lado a lado
+
+
+# O que é percentil?
+Os percentis são calculados comparando as estatísticas de um jogador com as dos jogadores do mesmo grupo de comparação. Por exemplo, Kaio Jorge tem o percentil 94 em 'assists', quer dizer então que ele dar mais assistências que 94% dos atacantes das principais ligas do mundo. 
