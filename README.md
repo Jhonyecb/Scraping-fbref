@@ -44,3 +44,7 @@ Monta um gráfico de barras para visualizar as estatísticas lado a lado
 
 # O que é percentil?
 Os percentis são calculados comparando as estatísticas de um jogador com as dos jogadores do mesmo grupo de comparação. Por exemplo, Kaio Jorge tem o percentil 94 em 'assists', quer dizer então que ele dar mais assistências que 94% dos atacantes das principais ligas do mundo. 
+
+# Restrições
+- Alguns atletas não possuem a estatística de percentil por não atuarem nas principais ligas do mundo.
+- Alguns jogadores atuam em mais de uma posição, dessa forma, são coletados os dados referentes as outas posições de atuação do atleta. Para melhor análise do gráfico, quem estiver operando o código deve apagar os dados do arquivo csv da posição que não será analisada.
