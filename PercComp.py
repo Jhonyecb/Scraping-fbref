@@ -56,7 +56,8 @@ ax.set_title(f"{jogador1} vs {jogador2}\nSemelhança: {similarity_pct:.1f}%", fo
 # eixos e legenda
 ax.set_ylabel("Percentil")
 ax.set_ylim(0, 110)
-ax.legend()
+ax.legend(loc='lower right', bbox_to_anchor=(1, 1), ncol=1)
 plt.tight_layout()
 plt.show()
+
 #%%
